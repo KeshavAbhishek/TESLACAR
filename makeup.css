@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8fa80996-ac5c-4cef-9534-a61a9457bfb3/bvlatuR/std/2880x1800/M3-Hero-LHD-US-D");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+#navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 2vw;
+    font-family: 'Times New Roman',cursive;
+    font-size: 2.2vw;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1vw;
+}
+
+#reserve-now{
+    font-family: 'Times New Roman',cursive;
+    font-size: 1.2vw;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 2%;
+    color: white;
+}
+
+#reserve-now:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: black;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+#footer{
+    position: fixed;
+    bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0 5%;
+    width: 80%;
+}
+
+
+#car-pickup-time-data{
+    display: flex;
+    flex-direction: column;
+}
+
+#car-max-speed-data{
+    display: flex;
+    flex-direction: column;
+}
+
+#car-max-range-data{
+    display: flex;
+    flex-direction: column;
+}
+
+#car-pickup-time-label{
+    font-size: 1.5vw;
+}
+
+#car-max-speed-label{
+    font-size: 1.5vw;
+}
+
+#car-max-range-label{
+    font-size: 1.5vw;
+}
+
+#model-name{
+    position: absolute;
+    right: -11.5%;
+    font-size: 2.3vw;
+}
+
+#boldLine{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 0.4vw;
+    width: 49vw;
+    color: transparent;
+    background-color: transparent;
+    transform: translateX(-1.5vw);
+}
+
+.boldLineParts{
+    width: 25%;height: 50%;
+}
+
+#boldLinePart1{
+    height: 150%;
+}
